@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-rpavy-посад-талон-e",
+  "editForm": "i-i-s-rpavy-посад-талон-e",
+  "external": false,
+  "caption": "Посад талон",
+  "name": "IISRpavyПосадТалонL",
+  "className": "ПосадТалонL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-rpavy-посад-талон",
+      "modelProjection": "ПосадТалонL"
+    }
+  ]
+}

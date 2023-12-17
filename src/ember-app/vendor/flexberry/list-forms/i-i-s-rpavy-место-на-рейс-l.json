@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-rpavy-место-на-рейс-e",
+  "editForm": "i-i-s-rpavy-место-на-рейс-e",
+  "external": false,
+  "caption": "Место на рейс",
+  "name": "IISRpavyМестоНаРейсL",
+  "className": "МестоНаРейсL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-rpavy-место-на-рейс",
+      "modelProjection": "МестоНаРейсL"
+    }
+  ]
+}

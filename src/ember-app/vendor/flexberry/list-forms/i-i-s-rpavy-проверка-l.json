@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-rpavy-проверка-e",
+  "editForm": "i-i-s-rpavy-проверка-e",
+  "external": false,
+  "caption": "Проверка",
+  "name": "IISRpavyПроверкаL",
+  "className": "ПроверкаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-rpavy-проверка",
+      "modelProjection": "ПроверкаL"
+    }
+  ]
+}

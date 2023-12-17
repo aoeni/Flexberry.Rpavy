@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Посад талон",
+  "name": "IISRpavyПосадТалонE",
+  "className": "ПосадТалонE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-rpavy-посад-талон",
+      "modelProjection": "ПосадТалонE"
+    }
+  ]
+}

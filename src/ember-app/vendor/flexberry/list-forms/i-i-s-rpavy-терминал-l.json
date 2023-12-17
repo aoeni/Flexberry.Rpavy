@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-rpavy-терминал-e",
+  "editForm": "i-i-s-rpavy-терминал-e",
+  "external": false,
+  "caption": "Терминал",
+  "name": "IISRpavyТерминалL",
+  "className": "ТерминалL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-rpavy-терминал",
+      "modelProjection": "ТерминалL"
+    }
+  ]
+}

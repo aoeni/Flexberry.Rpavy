@@ -1,0 +1,69 @@
+﻿{
+  "name": "IISRpavyПассажир",
+  "modelName": "i-i-s-rpavy-пассажир",
+  "className": "Пассажир",
+  "nameSpace": "IIS.Rpavy",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "фИО",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "кодБрони",
+      "relatedTo": "i-i-s-rpavy-код-брони",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "местоНаРейс",
+      "relatedTo": "i-i-s-rpavy-место-на-рейс",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПассажирE",
+      "modelName": "i-i-s-rpavy-пассажир",
+      "attrs": [
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ПассажирL",
+      "modelName": "i-i-s-rpavy-пассажир",
+      "attrs": [
+        {
+          "name": "фИО",
+          "caption": "ФИО",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

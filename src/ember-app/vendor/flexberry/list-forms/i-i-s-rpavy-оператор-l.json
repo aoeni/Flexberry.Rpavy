@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-rpavy-оператор-e",
+  "editForm": "i-i-s-rpavy-оператор-e",
+  "external": false,
+  "caption": "Оператор",
+  "name": "IISRpavyОператорL",
+  "className": "ОператорL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-rpavy-оператор",
+      "modelProjection": "ОператорL"
+    }
+  ]
+}

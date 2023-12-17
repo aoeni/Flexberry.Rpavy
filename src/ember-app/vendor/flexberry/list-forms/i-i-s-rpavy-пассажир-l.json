@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-rpavy-пассажир-e",
+  "editForm": "i-i-s-rpavy-пассажир-e",
+  "external": false,
+  "caption": "Пассажир",
+  "name": "IISRpavyПассажирL",
+  "className": "ПассажирL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-rpavy-пассажир",
+      "modelProjection": "ПассажирL"
+    }
+  ]
+}

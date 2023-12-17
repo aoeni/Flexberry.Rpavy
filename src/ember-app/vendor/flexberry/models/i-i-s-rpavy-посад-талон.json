@@ -1,0 +1,69 @@
+﻿{
+  "name": "IISRpavyПосадТалон",
+  "modelName": "i-i-s-rpavy-посад-талон",
+  "className": "ПосадТалон",
+  "nameSpace": "IIS.Rpavy",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаВыд",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "пассажир",
+      "relatedTo": "i-i-s-rpavy-пассажир",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "рейс",
+      "relatedTo": "i-i-s-rpavy-рейс",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПосадТалонE",
+      "modelName": "i-i-s-rpavy-посад-талон",
+      "attrs": [
+        {
+          "name": "датаВыд",
+          "caption": "Дата выдачи",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ПосадТалонL",
+      "modelName": "i-i-s-rpavy-посад-талон",
+      "attrs": [
+        {
+          "name": "датаВыд",
+          "caption": "Дата выдачи",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

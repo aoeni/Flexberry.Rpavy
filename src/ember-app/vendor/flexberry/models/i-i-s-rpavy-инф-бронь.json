@@ -1,0 +1,38 @@
+﻿{
+  "name": "IISRpavyИнфБронь",
+  "modelName": "i-i-s-rpavy-инф-бронь",
+  "className": "ИнфБронь",
+  "nameSpace": "IIS.Rpavy",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "пассажир",
+      "relatedTo": "i-i-s-rpavy-пассажир",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "рейс",
+      "relatedTo": "i-i-s-rpavy-рейс",
+      "inverse": "инфБронь"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ИнфБроньE",
+      "modelName": "i-i-s-rpavy-инф-бронь",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

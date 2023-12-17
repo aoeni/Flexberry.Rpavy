@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-rpavy-код-брони-e",
+  "editForm": "i-i-s-rpavy-код-брони-e",
+  "external": false,
+  "caption": "Код брони",
+  "name": "IISRpavyКодБрониL",
+  "className": "КодБрониL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-rpavy-код-брони",
+      "modelProjection": "КодБрониL"
+    }
+  ]
+}
